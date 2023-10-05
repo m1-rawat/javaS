@@ -2,7 +2,7 @@
 // Object.create
 
 
-object Literal
+// object Literal
 const JsUser={
     name:"Mayank",
     age:18,
@@ -11,22 +11,15 @@ const JsUser={
     isLoggedIn:false,
     lastLoggedIn:["Monday","Saturday"]
 }
-// console.log(JsUser.age)
-// console.log(JsUser["age"])
-// console.log(JsUser["name"])
-// console.log(typeof JsUser.location)
-// console.log(JsUser["location"])
+console.log(JsUser.age)
+console.log(JsUser["age"])
+console.log(JsUser["name"])
+console.log(typeof JsUser.location)
+console.log(JsUser["location"])
 
-// JsUser.email="mayankrawat@chatgpt.com"
-// // Object.freeze(JsUser)   // ab yeh change ni hhogi upar wale 
-
-
-// JsUser.email="mayankrawat@microsoft.com"
-// console.log(JsUser);     // add an object
+JsUser.email="mayankrawat@chatgpt.com"
+// Object.freeze(JsUser)   // ab yeh change ni hhogi upar wale 
 
 
-JsUser.greeting = function(){
-    console.log("hello boss");
-}
-
-console.log(JsUser.greeting);
+JsUser.email="mayankrawat@microsoft.com"
+console.log(JsUser);     // add an object
