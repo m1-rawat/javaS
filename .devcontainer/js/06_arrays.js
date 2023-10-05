@@ -25,7 +25,7 @@ console.log(myArr.includes(9)) // isme pta chalega ki 9 hai kii niii
 console.log(myArr.indexOf(9))  // 9 ki index poochega 
 
 
-  
-
+const arr5=new Array(11,22,33,44,55,66)
+console.log(arr5[2]);
 
 
